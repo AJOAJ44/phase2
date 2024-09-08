@@ -16,7 +16,7 @@ export default function NavBar() {
               </Link> */}
               <Image src={Logo} height={75} width={75} alt="hearwell"/>
               {/* HAMBURGER BUTTON FOR MOBILE */}
-              <div className="md:hidden">
+              <div className="md:hidden xl:hidden">
                 <button
                   className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                   onClick={() => setNavbar(!navbar)}

@@ -10,7 +10,7 @@ import Slideshow from '@/Components/Sildeshow/page';
 export default function Home() {
   return (
     <div className='absolute'>
-      <NavBar />
+      {/* <NavBar /> */}
       <section
         id="about"
         className="text-white h-screen  text-center  flex bg-gradient-to-r from-violet-500 to-fuchsia-50 "
