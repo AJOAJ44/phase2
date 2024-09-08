@@ -5,7 +5,7 @@ import Logo from "@/Image/Logo.png"
 export default function NavBar() {
   const [navbar, setNavbar] = useState(false);
   return (
-    <div>
+    
       <nav className="w-full bg-gradient-to-r from-violet-500 fixed top-0 left-0 right-0 z-10">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
@@ -22,15 +22,15 @@ export default function NavBar() {
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (
-                    <Image src="/close.svg" width={30} height={30} alt="logo" />
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
+</svg>
                   ) : (
-                    <Image
-                      src="/hamburger-menu.svg"
-                      width={30}
-                      height={30}
-                      alt="logo"
-                      className="focus:border-none active:border-none"
-                    />
+                    <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+</svg>
+
                   )}
                 </button>
               </div>
@@ -68,5 +68,5 @@ export default function NavBar() {
           </div>
         </div>
       </nav>
-    </div>
+  
 )}

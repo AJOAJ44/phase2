@@ -27,7 +27,6 @@ export default function Home() {
     <h3 class="z-10 mt-3 text-3xl font-bold text-white">Speech Therapy</h3>
     <div class="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">specialist</div>
 </article>
-<p>we care for you</p>
       </section>
       <section id="blog" className=" text-white h-screen bg-purple-900 flex flex-col" style={{ backgroundImage: `url(${photo})`}}>
         <h1 className="m-auto font-waterfall text-4xl text-white font-bold">
@@ -63,7 +62,7 @@ export default function Home() {
       <section><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3927.785545699967!2d76.47821527315914!3d10.116632571020768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b07e2f70f4697d9%3A0xd2dadd242a2f51d5!2sHearwell%20speech!5e0!3m2!1sen!2sin!4v1725134664944!5m2!1sen!2sin" width="100%" height="450"  allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe></section>
      <section><Footer/></section>
       <span className='relative'>
-      <FloatingWhatsApp phoneNumber='9207562728' accountName='HearWell' darkMode chatMessage='Hi there ' statusMessage='Online' allowEsc placeholder='please connect as' avatar={"Image/Logo.png"}/>
+      <FloatingWhatsApp phoneNumber='9207562728' accountName='HearWell' darkMode chatMessage='Hi' statusMessage='Online' allowEsc placeholder='please connect as' avatar={"Image/Logo.png"}/>
       </span>
     </div>
   );
